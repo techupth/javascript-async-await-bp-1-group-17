@@ -33,3 +33,5 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+console.log(getJohnProfile().then(result => console.log(result)))
+console.log(getJohnOrders().then(result => console.log(result)))
